@@ -1,0 +1,21 @@
+
+.create-product{
+    /* background-color: aqua; */
+    height: 250px;
+    width: 800px;
+    margin: 0 auto; /*box-center*/
+}
+
+.create-product h3{
+    text-align: center;
+
+}
+
+
+
+.detail .btn{
+   margin-left: 170px;
+    /* background-color: brown; */
+
+}
+

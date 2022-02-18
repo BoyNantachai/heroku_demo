@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="create-product">
+        <h3>สร้างสินค้า :</h3>
+        <div class="detail">
+            <input [(ngModel)]="name" class="form-control" type="text" placeholder=":ชือสินค้า">
+            <input [(ngModel)]="detail" class="form-control" type="text" placeholder=":รายละเอียด">
+            <input [(ngModel)]="price" class="form-control" type="number" placeholder=":ราคา">
+
+            <div class="btn"><button (click)="onAdd()" class="btn btn-primary">เพิ่มสินค้า</button></div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+
+

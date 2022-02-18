@@ -1,0 +1,11 @@
+<div class="edit-product">
+    <h3>แก้ไขสินค้า (ID : {{productId}})</h3>
+    <div class="detail">
+        <input  [(ngModel)]="name" class="form-control" type="text" placeholder="ชื่อสินค้า">
+        <textarea [(ngModel)]="detail" class="form-control" type="text"placeholder="รายละเอียด"></textarea>
+        <input [(ngModel)]="price" class="form-control" type="number"placeholder="ราคา">
+
+        <div class="btn"><button (click)="onEdit()" class="btn btn-primary">SAVE</button></div>
+        
+    </div>
+</div>
